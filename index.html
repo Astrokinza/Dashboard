@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard-index.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav__img-container">
+            <img src="./images/home.svg" alt="" id="home"><img src="./images/grid.svg" alt=""><img src="./images/lamp.svg" alt=""><img src="./images/sheild.svg" alt=""><img src="./images/location.svg" alt=""><img src="./images/users.svg" alt=""><img src="./images/network.svg" alt="">
+        </div>
+        <img src="./images/logout.svg" alt="">
+    </nav>
+    <main>
+        <section class="search-bar">
+            <div class="input-div"><input type="search" name="search" id="search" placeholder="search"></div>
+            <section class="profile-etc">
+                <img src="./images/setting.svg" alt=""><img src="./images/notif.svg" alt=""><img src="./images/scarlett.svg" alt="">
+                <!-- <ul id="img">
+                    <li class="li"></li> -->
+                    <!-- <li class="li"><img src="./images/nariya.svg" alt=""></li>
+                    <li class="li"><img src="./images/riya.svg" alt=""></li>
+                    <li class="li"><img src="./images/dad.svg" alt=""></li>
+                    <li class="li"><img src="./images/mom.svg" alt=""></li>                     -->
+                <!-- </ul> -->
+                <select name="Users" id="users" size="1">
+                    <option value="Scarlett">Scarlett</option>
+                    <option value="Nariya">Nariya</option>
+                    <option value="Riya">Riya</option>
+                    <option value="Dad">Dad</option>
+                    <option value="Mom">Mom</option>
+                </select>
+            </section>
+        </section>
+        <section class="main__main-section">
+            <section class="first-section">
+                <section class="main__main-section__illustration-section">
+                    <h1>Hello, Scarlett !</h1>
+                    <p class="home">Welcome Home ! The air quality is good & fresh you can go out today.</p>
+                    <p class="main__main-section__illustration-section__temp-cloud temp"><span>+25C</span> Outdoor temperature</p>
+                    <p class="main__main-section__illustration-section__temp-cloud cloud">Fuzzy couldy weather</p>
+                </section>
+                <section class="info-section">
+                    <div class="home-container">
+                        <h4>Scarlett's Home</h4>
+                        <div class="home-container__right-container">
+                            <p>35%</p>
+                            <p>15C</p>
+                            <select class="home-container__right-container__select">
+                                <option value="Living Room">Living Room</option>
+                                <option value="Bathroom">Bathroom</option>
+                                <option value="Kitchen">Kitchen</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="options">
+                        <div>
+                            <article class="button-statue">
+                                <p>On</p>
+                                <div class="button">
+                                    <input type="checkbox" name="checkbox" id="checkbox-on-un" checked>
+                                    <label for="checkbox-on-1" class="bg-blue"></label>
+                                </div>
+                            </article>
+                            <img src="./images/frigo.svg" alt="">
+                            <p class="img-desc">Refridgerator</p>
+                        </div>
+                        <div>
+                            <article class="button-statue">
+                                <p id="white-p">On</p>
+                                <div class="button">
+                                    <input type="checkbox" name="checkbox" id="checkbox-on-deux" checked>
+                                    <label for="checkbox-on-2" class="bg-white" ></label>
+                                </div>
+                                
+                            </article>
+                            <img src="./images/thunder.svg" alt="">
+                            <p class="img-desc white">temperature</p>
+                        </div>
+                        <div>
+                            <article class="button-statue">
+                                <p>On</p>
+                                <div class="button">
+                                    <input type="checkbox" name="checkbox" id="checkbox-off-1">
+                                    <label for="checkbox-off-1" class="off-label"></label>
+                                </div>
+                            </article>
+                            <img src="./images/conditionner.svg" alt="">
+                            <p class="img-desc gray">Air conditioner</p>
+                        </div>
+                        <div>
+                            <article class="button-statue">
+                                <p>On</p>
+                                <div class="button">
+                                    <input type="checkbox" name="checkbox" id="checkbox-off-2">
+                                <label for="checkbox-off-2" class="off-label"></label>
+                                </div>
+                            </article>
+                            <img src="./images/light.svg" alt="">
+                            <p class="img-desc gray">Lights</p>
+                        </div>
+                    </div>
+                    <div class="range-temperature">
+                        <div id="range-f-container">
+                            <div id="thunder">
+                                <span><img src="./images/thunder-blue.svg" alt=""></span>
+                                <p>Living Room Temperature</p>
+                            </div>
+                            <div class="button">
+                                <input type="checkbox" name="checkbox" id="checkbox-on-un" checked>
+                                <label for="checkbox-on-1" class="bg-blue"></label>
+                            </div>
+                        </div>
+                        <div class="range-container">
+                            <button>-</button>
+                            <img src="./images/range.svg" alt="">
+                            <button>+</button>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            </section>
+                <section class="main__main-section-two">
+                    <section class="main__main-section-two__devices">
+                        <article class="article-header-container article-header-container-one">
+                            <h4 class="header">My devices</h4>
+                            <div id="select-container">
+                                <select name="statue" id="on-off">
+                                    <option value="ON">ON</option>
+                                    <option value="OFF">OFF</option>
+                                </select>
+                                <button class="arrow-container"><img src="./images/arrow.svg" alt="arrow-right-two" id="arrow-right-two"></button>
+                            </div>
+                        </article>
+                        <section class="main__main-section-two__devices__grid-section">
+                            <div class="devices" id="frigo">
+                                <div class="device-button">
+                                    <img src="./images/frigo-blanc.svg" alt="frigo">
+                                    <div class="button edited-button edited-button-one"> 
+                                        <p>ON</p>
+                                        <input type="checkbox" name="checkbox" id="checkbox-on-3" checked>
+                                        <label for="checkbox-on-3" class="bg-white"></label>
+                                    </div>
+                                </div>
+                                <p class="name">Refridgerator</p>
+                            </div>
+                            <div class="devices" id="router">
+                                <div class="device-button">
+                                    <img src="./images/router.svg" alt="">
+                                    <div class="button edited-button edited-button-two">
+                                        <p>ON</p>
+                                        <input type="checkbox" name="checkbox" id="checkbox-on-4" checked>
+                                        <label for="checkbox-on-3" class="bg-white"></label>
+                                    </div>
+                                </div>
+                                <p class="name">Router</p>
+                            </div>
+                            <div class="devices" id="music">
+                                <div class="device-button">
+                                    <img src="./images/cd.svg" alt="">
+                                    <div class="button edited-button edited-button-three">
+                                        <p>ON</p>
+                                        <input type="checkbox" name="checkbox" id="checkbox-on-5" checked>
+                                        <label for="checkbox-on-3" class="bg-white" ></label>
+                                    </div>
+                                </div>
+                                <p class="name">Music System</p>
+                            </div>
+                            <div class="devices" id="lamp">
+                                <div class="device-button">
+                                    <img src="./images/lamp.svg" alt="">
+                                    <div class="button edited-button edited-button-four">
+                                        <p>ON</p>
+                                        <input type="checkbox" name="checkbox" id="checkbox-on-6" checked>
+                                        <label for="checkbox-on-3" class="bg-blue"></label>
+                                    </div>
+                                </div>
+                                <p class="name">Lamps</p>
+                            </div>
+                        </section>
+                    </section>
+                    <section class="main__main-section-two__members">
+                        <article class="article-header-container article-header-container-two">
+                            <h4 class="header">Members</h4>
+                            <button class="arrow-container"><img src="./images/Arrow.svg" alt=""></button>
+                        </article>
+                        <section class="members-profile">
+                            <span><img src="./images/scarlett.svg" alt=""></span>
+                            <span><img src="./images/nariya.svg" alt=""></span>
+                            <span><img src="./images/riya.svg" alt=""></span>
+                            <span><img src="./images/dad.svg" alt=""></span>
+                            <span><img src="./images/mom.svg" alt=""></span>
+                        </section>
+                    </section>
+                    <section class="main__main-section-two__consummation">
+        
+                    </section>
+                </section>
+        </section>   
+       
+    </main>
+    
+
+    <script src="/dashboard/app.js"></script>
+</body>
+</html>
